@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class PlaceManager : MonoBehaviour
 {
@@ -25,9 +26,17 @@ public class PlaceManager : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit))
         {
-            GameObject newUnit = Instantiate(ObjectToPlace);
+            if(hit.transform.GetChildCount() < 1)
+            {
+                GameObject newUnit = Instantiate(ObjectToPlace);
 
-            newUnit.transform.SetParent(hit.transform.gameObject.transform, false);
+                newUnit.transform.SetParent(hit.transform.gameObject.transform, false);                
+            }
+            else
+            {
+                Debug.LogWarning("Cell already occupied");
+                
+            }
         }
     }
 }

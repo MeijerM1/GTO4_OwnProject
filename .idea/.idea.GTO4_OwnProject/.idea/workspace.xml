@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f74db0-5445-4448-815d-88cc03a80959" name="Default" comment="" />
+    <list default="true" id="12f74db0-5445-4448-815d-88cc03a80959" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/PlaceManager.cs" afterPath="$PROJECT_DIR$/Assets/PlaceManager.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CameraController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CameraController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="855">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <marker date="1521022118527" expanded="true" signature="6:92" ph="..." />
                 <marker date="1521022118527" expanded="true" signature="139:1705" ph="{...}" />
@@ -26,6 +28,26 @@
                 <marker date="1521022118527" expanded="true" signature="849:896" ph="{...}" />
                 <marker date="1521022118527" expanded="true" signature="958:1005" ph="{...}" />
                 <marker date="1521022118527" expanded="true" signature="1447:1703" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaceManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/PlaceManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+              <folding>
+                <marker date="1521022364235" expanded="true" signature="6:108" ph="..." />
+                <marker date="1521022364235" expanded="true" signature="151:960" ph="{...}" />
+                <marker date="1521022364235" expanded="true" signature="217:388" ph="{...}" />
+                <marker date="1521022364235" expanded="true" signature="264:382" ph="{...}" />
+                <marker date="1521022364235" expanded="true" signature="313:372" ph="{...}" />
+                <marker date="1521022364235" expanded="true" signature="420:958" ph="{...}" />
+                <marker date="1521022364235" expanded="true" signature="563:952" ph="{...}" />
+                <marker date="1521022364235" expanded="true" signature="623:821" ph="{...}" />
+                <marker date="1521022364235" expanded="true" signature="838:942" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -55,6 +77,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PlaceManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Grid/Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AndroidPermissionsRequestResult.cs" root0="FORCE_HIGHLIGHTING" />
@@ -63,6 +86,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlaceManager.cs" />
       </list>
     </option>
   </component>
@@ -140,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521019836513</updated>
-      <workItem from="1521019838797" duration="2373000" />
+      <workItem from="1521019838797" duration="2527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2373000" />
+    <option name="totallyTimeSpent" value="2527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="855">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <marker date="1521022118527" expanded="true" signature="6:92" ph="..." />
             <marker date="1521022118527" expanded="true" signature="139:1705" ph="{...}" />
@@ -248,6 +272,24 @@
             <marker date="1521022118527" expanded="true" signature="849:896" ph="{...}" />
             <marker date="1521022118527" expanded="true" signature="958:1005" ph="{...}" />
             <marker date="1521022118527" expanded="true" signature="1447:1703" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PlaceManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <marker date="1521022364235" expanded="true" signature="6:108" ph="..." />
+            <marker date="1521022364235" expanded="true" signature="151:960" ph="{...}" />
+            <marker date="1521022364235" expanded="true" signature="217:388" ph="{...}" />
+            <marker date="1521022364235" expanded="true" signature="264:382" ph="{...}" />
+            <marker date="1521022364235" expanded="true" signature="313:372" ph="{...}" />
+            <marker date="1521022364235" expanded="true" signature="420:958" ph="{...}" />
+            <marker date="1521022364235" expanded="true" signature="563:952" ph="{...}" />
+            <marker date="1521022364235" expanded="true" signature="623:821" ph="{...}" />
+            <marker date="1521022364235" expanded="true" signature="838:942" ph="{...}" />
           </folding>
         </state>
       </provider>
