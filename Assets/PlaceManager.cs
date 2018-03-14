@@ -30,7 +30,9 @@ public class PlaceManager : MonoBehaviour
             {
                 GameObject newUnit = Instantiate(ObjectToPlace);
 
-                newUnit.transform.SetParent(hit.transform.gameObject.transform, false);                
+                newUnit.transform.SetParent(hit.transform.gameObject.transform, false);
+
+                ObjectToPlace = null;
             }
             else
             {
