@@ -22,6 +22,7 @@ public class CameraController : MonoBehaviour
 
 	private void Start()
 	{
+		map =  GameObject.FindGameObjectWithTag("Map").GetComponent<Map>();
 		CalculateOffset();
 	}
 

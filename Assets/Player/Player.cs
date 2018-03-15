@@ -10,6 +10,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Awake ()
 	{
+		transform.SetParent(GameObject.FindGameObjectWithTag("TurnManager").transform);
         PlayerName = gameObject.name;
 		Color = Random.ColorHSV();
 	}	
