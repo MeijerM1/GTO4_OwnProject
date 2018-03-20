@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class UnitFactory : MonoBehaviour
 {
     public PlaceManager PlaceManager;
-    public GameObject Prototype;
+    public Unit Prototype;
 
     public List<ResourceCosts> costs = new List<ResourceCosts>();
     

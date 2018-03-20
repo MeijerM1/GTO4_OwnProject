@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class CameraController : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class CameraController : MonoBehaviour
 	public float panSpeed = 20f;
 	public float panBorder = 10f;
 
+	[UnityEngine.RangeAttribute(0f, 90f)]
+	public float cameraAngle;
+	
 	private Vector2 panLimitX;
 	private Vector2 panLimitZ;
 
@@ -23,27 +27,29 @@ public class CameraController : MonoBehaviour
 	private void Start()
 	{
 		map =  GameObject.FindGameObjectWithTag("Map").GetComponent<Map>();
+		gameObject.transform.Rotate(cameraAngle, 0,0);
 		CalculateOffset();
 	}
 
 	// Update is called once per frame
 	public void Update ()
 	{
+		
 		Vector3 pos = transform.position;
 
-		if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBorder)
+		if (Input.GetKey("w") )
 		{
 			pos.z += panSpeed * Time.deltaTime;
 		}
-		if (Input.GetKey("s") || Input.mousePosition.y < panBorder)
+		if (Input.GetKey("s") )
 		{
 			pos.z -= panSpeed * Time.deltaTime;
 		}
-		if (Input.GetKey("d") || Input.mousePosition.x >= Screen.width - panBorder)
+		if (Input.GetKey("d") )
 		{
 			pos.x += panSpeed * Time.deltaTime;
 		}
-		if (Input.GetKey("a") || Input.mousePosition.x < panBorder)
+		if (Input.GetKey("a") )
 		{
 			pos.x -= panSpeed * Time.deltaTime;
 		}
