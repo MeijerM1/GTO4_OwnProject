@@ -76,7 +76,7 @@ public class PlaceManager : MonoBehaviour
     {
         var cells = map.GetCellsInRow(cell, ObjectToPlace.length, ObjectToPlace.orientation);
         
-        if (cells.Count < ObjectToPlace.length - 1)
+        if (cells.Count < ObjectToPlace.length)
         {
             return false;
         }
@@ -94,9 +94,7 @@ public class PlaceManager : MonoBehaviour
     }
 
     private void OccupyCells(Cell cell, Unit unit)
-    {
-        cell.unit = unit;
-        
+    {        
         var cells = map.GetCellsInRow(cell, ObjectToPlace.length, ObjectToPlace.orientation);
         
         foreach (var c in cells)

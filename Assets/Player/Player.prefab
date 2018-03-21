@@ -952,11 +952,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SizeX: 7
-  SizeY: 14
+  SizeY: 7
   TileOffsetX: 0
   TileOffsetY: 0
   Prototype: {fileID: 114282428865226034, guid: 9489adf1bf405ec4997558f61a89fdd1,
     type: 2}
+  PlaceManager: {fileID: 114453792635605292}
 --- !u!114 &114085295434399242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1002,7 +1003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceManager: {fileID: 114453792635605292}
-  Prototype: {fileID: 114654930718763266, guid: 2569ae45cb8e65443be685d90cc9873c,
+  Prototype: {fileID: 114468901690010584, guid: b9d2e5cacd09dd5498f76abec4c264a4,
     type: 2}
   costs:
   - Resource: {fileID: 114734198050852318}

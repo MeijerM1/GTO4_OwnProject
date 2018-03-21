@@ -11,9 +11,17 @@ public class Cell : MonoBehaviour {
 
     private Color _startcolor;
 
-    void OnMouseEnter()
+    public PlaceManager PlaceManager;
+    public Map Map;
+
+    private void Start()
     {
         _startcolor = GetComponent<Renderer>().material.color;
+    }
+
+    void OnMouseEnter()
+    {
+        if(ShowPlacementHighlight()) return;        
 
         Color newColor;
         
@@ -28,8 +36,28 @@ public class Cell : MonoBehaviour {
         
         GetComponent<Renderer>().material.color = newColor;
     }
+    
     void OnMouseExit()
     {
         GetComponent<Renderer>().material.color = _startcolor;
+    }
+
+    public void Highlight(Color color)
+    {
+        GetComponent<Renderer>().material.color = color;
+    }
+
+    public void RemoveHighligh()
+    {
+        GetComponent<Renderer>().material.color = _startcolor;
+    }
+
+    private bool ShowPlacementHighlight()
+    {
+        if (PlaceManager.ObjectToPlace == null) return false;
+        
+        Map.HighLightCells(this, PlaceManager.ObjectToPlace);
+
+        return true;
     }
 }

@@ -14,6 +14,10 @@ public class Map : MonoBehaviour {
 
     public Cell Prototype;
 
+    public PlaceManager PlaceManager;
+    
+    private List<Cell> highlightedCells = new List<Cell>();
+
     public void Start()
     {
         TileOffsetX = Prototype.gameObject.GetComponent<Renderer>().bounds.size.x;
@@ -38,6 +42,9 @@ public class Map : MonoBehaviour {
                 newCell.xPos = i;
                 newCell.yPos = j;
 
+                newCell.Map = this;
+                newCell.PlaceManager = PlaceManager;
+
                 offsetY += TileOffsetY;
             }
 
@@ -58,7 +65,7 @@ public class Map : MonoBehaviour {
         }
         catch (UnityException e)
         {
-            Debug.LogWarning(e.Message);
+            //Debug.LogWarning(e.Message);
             return null;
         }
     }
@@ -66,6 +73,8 @@ public class Map : MonoBehaviour {
     public List<Cell> GetCellsInRow(Cell startCell, int length, int orientation)
     {
         List<Cell> result = new List<Cell>();
+        
+        result.Add(startCell);
 
         for (int i = 1; i < length; i++)
         {
@@ -97,5 +106,38 @@ public class Map : MonoBehaviour {
         }
 
         return result;
+    }
+
+    private void ResetHighlight()
+    {
+        foreach (var cell in highlightedCells)
+        {
+               cell.RemoveHighligh();
+        }
+    }
+
+    public void HighLightCells(Cell startCell, Unit unit)
+    {
+        ResetHighlight();
+        
+        var cells = GetCellsInRow(startCell, unit.length, unit.orientation);
+
+        highlightedCells = cells;
+        
+        Color color;
+
+        if (cells.Count < unit.length)
+        {
+            color = Color.red;
+        }
+        else
+        {
+            color = Color.green;
+        }
+
+        foreach (var cell in cells)
+        {
+            cell.Highlight(color);
+        }
     }
 }
