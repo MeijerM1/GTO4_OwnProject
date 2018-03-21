@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f74db0-5445-4448-815d-88cc03a80959" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GTO4_OwnProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GTO4_OwnProject/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grid/Cell.cs" afterPath="$PROJECT_DIR$/Assets/Grid/Cell.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grid/Map.cs" afterPath="$PROJECT_DIR$/Assets/Grid/Map.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Player/Player.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaceManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaceManager.cs" />
-    </list>
+    <list default="true" id="12f74db0-5445-4448-815d-88cc03a80959" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +81,8 @@
       <file leaf-file-name="Map.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Grid/Map.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="646">
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <marker date="1521621704839" expanded="false" signature="6:132" ph="..." />
                 <marker date="1521621704839" expanded="true" signature="167:3346" ph="{...}" />
@@ -315,12 +309,12 @@
       <workItem from="1521468294747" duration="651000" />
       <workItem from="1521532283917" duration="4677000" />
       <workItem from="1521554663770" duration="2191000" />
-      <workItem from="1521620179044" duration="1545000" />
+      <workItem from="1521620179044" duration="2746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26584000" />
+    <option name="totallyTimeSpent" value="27785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +327,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2569" y="-9" width="2578" height="1408" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -850,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Grid/Map.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        <state relative-caret-position="646">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <marker date="1521621704839" expanded="false" signature="6:132" ph="..." />
             <marker date="1521621704839" expanded="true" signature="167:3346" ph="{...}" />
