@@ -39,6 +39,7 @@ public class Cell : MonoBehaviour {
     
     void OnMouseExit()
     {
+		Map.ResetHighlight();
         GetComponent<Renderer>().material.color = _startcolor;
     }
 

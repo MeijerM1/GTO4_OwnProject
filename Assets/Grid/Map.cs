@@ -108,7 +108,7 @@ public class Map : MonoBehaviour {
         return result;
     }
 
-    private void ResetHighlight()
+    public void ResetHighlight()
     {
         foreach (var cell in highlightedCells)
         {
@@ -133,6 +133,14 @@ public class Map : MonoBehaviour {
         else
         {
             color = Color.green;
+        }
+
+        foreach (var cell in cells)
+        {
+            if (cell.unit != null)
+            {
+                color = Color.red;
+            }
         }
 
         foreach (var cell in cells)
