@@ -4,44 +4,8 @@
     <list default="true" id="12f74db0-5445-4448-815d-88cc03a80959" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GTO4_OwnProject/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GTO4_OwnProject/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GTO4_OwnProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GTO4_OwnProject/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor/PUManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor/PUManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor/PUSelection.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor/PUSelection.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor/TreeNode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Editor/TreeNode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/README.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/Open_icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/Open_icon.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_file2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_file2.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_fold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_fold.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_i.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_i.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_icon.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_line.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_line.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_q.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_q.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_title.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Movinarc/PackageUninstaller/Resources/pu_title.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat" afterPath="$PROJECT_DIR$/Assets/External/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grid/Cell.cs" afterPath="$PROJECT_DIR$/Assets/Grid/Cell.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grid/Map.cs" afterPath="$PROJECT_DIR$/Assets/Grid/Map.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Movinarc.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Movinarc/PackageUninstaller.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Movinarc/PackageUninstaller/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/USSC Brig Sloop/Materials and Meshes.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Units/cruiser.obj.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" afterPath="$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta" afterPath="$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Map.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Grid/Map.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="813">
-              <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+              <caret line="142" column="13" lean-forward="false" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
               <folding>
                 <marker date="1521793311039" expanded="false" signature="6:132" ph="..." />
                 <marker date="1521793311039" expanded="true" signature="167:3500" ph="{...}" />
@@ -101,6 +65,39 @@
                 <marker date="1521793311039" expanded="true" signature="3282:3400" ph="{...}" />
                 <marker date="1521793311039" expanded="true" signature="3327:3390" ph="{...}" />
                 <marker date="1521793311039" expanded="true" signature="3437:3492" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrossPlatformInputInitialize.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <marker date="1521793870932" expanded="false" signature="6:66" ph="..." />
+                <marker date="1521793870932" expanded="true" signature="126:5454" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="192:5452" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="207:628" ph="/* Custom compiler defines: ... */" />
+                <marker date="1521793870932" expanded="true" signature="670:962" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="803:952" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="1043:2233" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="1168:2223" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="2328:2472" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="2555:3234" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="2681:3224" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="3331:3474" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="3574:3796" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="3902:4162" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="4249:5244" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="4409:5234" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="4504:4715" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="4576:4652" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="4736:5056" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="4809:4885" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="4942:5038" ph="{...}" />
+                <marker date="1521793870932" expanded="true" signature="5321:5446" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -144,6 +141,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/External/Standard Assets/Environment/Water/Water/Scripts/Water.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Grid/Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Units/Unit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -167,6 +165,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlaceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Grid/Cell.cs" />
         <option value="$PROJECT_DIR$/Assets/Grid/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
       </list>
     </option>
   </component>
@@ -260,12 +259,12 @@
       <workItem from="1521554663770" duration="2191000" />
       <workItem from="1521620179044" duration="2746000" />
       <workItem from="1521792388814" duration="434000" />
-      <workItem from="1521793046247" duration="266000" />
+      <workItem from="1521793046247" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28485000" />
+    <option name="totallyTimeSpent" value="29084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,25 +315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Grid/Cell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <marker date="1521793211971" expanded="false" signature="6:78" ph="..." />
-            <marker date="1521793211971" expanded="true" signature="114:1271" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="295:370" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="395:714" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="514:569" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="582:639" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="742:841" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="881:950" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="984:1059" ph="{...}" />
-            <marker date="1521793211971" expanded="true" signature="1102:1269" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Player/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -564,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Grid/Map.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="813">
-          <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+          <caret line="142" column="13" lean-forward="false" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
           <folding>
             <marker date="1521793311039" expanded="false" signature="6:132" ph="..." />
             <marker date="1521793311039" expanded="true" signature="167:3500" ph="{...}" />
@@ -589,6 +569,37 @@
             <marker date="1521793311039" expanded="true" signature="3282:3400" ph="{...}" />
             <marker date="1521793311039" expanded="true" signature="3327:3390" ph="{...}" />
             <marker date="1521793311039" expanded="true" signature="3437:3492" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/External/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <marker date="1521793870932" expanded="false" signature="6:66" ph="..." />
+            <marker date="1521793870932" expanded="true" signature="126:5454" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="192:5452" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="207:628" ph="/* Custom compiler defines: ... */" />
+            <marker date="1521793870932" expanded="true" signature="670:962" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="803:952" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="1043:2233" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="1168:2223" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="2328:2472" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="2555:3234" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="2681:3224" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="3331:3474" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="3574:3796" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="3902:4162" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="4249:5244" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="4409:5234" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="4504:4715" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="4576:4652" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="4736:5056" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="4809:4885" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="4942:5038" ph="{...}" />
+            <marker date="1521793870932" expanded="true" signature="5321:5446" ph="{...}" />
           </folding>
         </state>
       </provider>
