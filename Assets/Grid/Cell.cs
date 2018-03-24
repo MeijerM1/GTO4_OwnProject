@@ -22,25 +22,6 @@ public class Cell : MonoBehaviour {
     void OnMouseEnter()
     {
         if(ShowPlacementHighlight()) return;        
-
-        Color newColor;
-        
-        if (unit != null)
-        {
-            newColor = Color.blue;
-        }
-        else
-        {
-            newColor = Color.yellow;
-        }
-        
-        GetComponent<Renderer>().material.color = newColor;
-    }
-    
-    void OnMouseExit()
-    {
-		Map.ResetHighlight();
-        GetComponent<Renderer>().material.color = _startcolor;
     }
 
     public void Highlight(Color color)

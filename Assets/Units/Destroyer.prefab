@@ -15734,6 +15734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4195110561018662}
   - component: {fileID: 114468901690010584}
+  - component: {fileID: 65747604575042402}
   m_Layer: 0
   m_Name: Destroyer
   m_TagString: Untagged
@@ -20127,7 +20128,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1891474718803708}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.74, y: -0.43, z: 2.34}
+  m_LocalPosition: {x: 0.6, y: 0, z: 2.56}
   m_LocalScale: {x: 0.09212883, y: 0.09212886, z: 0.09212886}
   m_Children:
   - {fileID: 4952393017524038}
@@ -73647,6 +73648,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1951633069879270}
   m_Mesh: {fileID: 4300076, guid: e8090dea26b5f6543bdd9d751a5a89d7, type: 3}
+--- !u!65 &65747604575042402
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891474718803708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 170, y: 29.9, z: 20}
+  m_Center: {x: 82.9, y: 15.6, z: -6}
 --- !u!114 &114468901690010584
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -73662,7 +73675,9 @@ MonoBehaviour:
   maxHitpoints: 5
   currentHitpoints: 5
   firepower: 2
+  remainingFirepower: 2
   maxMovementRange: 3
   remainingMovementRange: 3
   length: 2
+  locations: []
   orientation: 0

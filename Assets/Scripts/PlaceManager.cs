@@ -56,12 +56,16 @@ public class PlaceManager : MonoBehaviour
                 if (newUnit.orientation == 1)
                 {
                     hit.transform.Rotate(0, -90, 0);
-                }                                
+                }
+
+                newUnit.player = player;
                 
                 OccupyCells(cell , newUnit);
-                
+                                
                 player.units.Add(newUnit);
 
+                map.ResetHighlight();
+                
                 ObjectToPlace = null;                
             }
             else
@@ -96,6 +100,8 @@ public class PlaceManager : MonoBehaviour
     private void OccupyCells(Cell cell, Unit unit)
     {        
         var cells = map.GetCellsInRow(cell, ObjectToPlace.length, ObjectToPlace.orientation);
+
+        unit.locations = cells;
         
         foreach (var c in cells)
         {

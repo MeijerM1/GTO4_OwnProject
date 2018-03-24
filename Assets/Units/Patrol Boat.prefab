@@ -108,9 +108,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  maxHitpoints: 0
-  currentHitpoints: 0
+  maxHitpoints: 2
+  currentHitpoints: 2
   firepower: 1
-  maxMovementRange: 0
-  remainingMovementRange: 0
+  remainingFirepower: 1
+  maxMovementRange: 2
+  remainingMovementRange: 2
   length: 1
+  locations: []
+  orientation: 0
