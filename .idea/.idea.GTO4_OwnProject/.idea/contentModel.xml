@@ -82,6 +82,7 @@
           <e p="Cell.cs" t="Include" />
           <e p="Map.cs" t="Include" />
         </e>
+        <e p="MainMenuBoatRoll.cs" t="Include" />
         <e p="Player" t="Include">
           <e p="Player.cs" t="Include" />
           <e p="TurnManager.cs" t="Include" />
@@ -98,10 +99,13 @@
           <e p="ResourceUI.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="EventManager.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="PlaceManager.cs" t="Include" />
           <e p="ShipUI.cs" t="Include" />
+          <e p="Sound.cs" t="Include" />
         </e>
         <e p="Units" t="Include">
           <e p="Ownable.cs" t="Include" />

@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class TurnManager : MonoBehaviour
 {
     public int PlayerAmount;
     public GameObject PlayerPrefab;
+
+    public Text playerLabel;
     
     List<Player> players = new List<Player>();
     int activePlayer = 0;
@@ -49,6 +52,7 @@ public class TurnManager : MonoBehaviour
             if (i == activePlayer)
             {
                 players[i].gameObject.SetActive(true);
+                playerLabel.text = players[i].PlayerName;
             }
             else
             {
