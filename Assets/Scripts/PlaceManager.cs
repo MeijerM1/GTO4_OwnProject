@@ -39,6 +39,8 @@ public class PlaceManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             Cell cell = hit.transform.GetComponent<Cell>();
+
+            if (cell.Map != map) return;
             
             if(cell != null && cell.unit == null)
             {

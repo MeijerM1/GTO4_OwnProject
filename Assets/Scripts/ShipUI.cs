@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,11 +17,11 @@ public class ShipUI : MonoBehaviour
 		gameObject.SetActive(false);
 	}
 	
-	void SetUnitDetails(Unit unit)
+	public void SetUnitDetails(Unit unit)
 	{
 		Debug.Log("Setting ship UI");
 		
-		Type.text = unit.name;
+		Type.text = unit.name.Substring(0, unit.name.IndexOf("(")) ;
 		Hp.text = unit.currentHitpoints + "/" + unit.maxHitpoints;
 		Firepower.text = unit.firepower.ToString();
 		Movement.text = unit.remainingMovementRange + "/" + unit.maxMovementRange;
@@ -28,9 +29,9 @@ public class ShipUI : MonoBehaviour
 		gameObject.SetActive(true);
 	}
 
-	public void HideShipDetails()
+	public void Show(bool flag)
 	{
-		gameObject.SetActive(false);
+		gameObject.SetActive(flag);
 	}
 	
 }

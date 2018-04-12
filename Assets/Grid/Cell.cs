@@ -21,6 +21,8 @@ public class Cell : MonoBehaviour {
 
     void OnMouseEnter()
     {
+        if (PlaceManager == null) return;
+        
         if(ShowPlacementHighlight()) return;        
     }
 

@@ -8,24 +8,26 @@ public class Player : MonoBehaviour {
 
     public string PlayerName;
 	public Color Color;
-	public Text label;
+	public TurnManager TurnManager;
 
 	private Unit _selectedUnit = null;
-
+	public ShipUI ShipUI;	
 	public List<Unit> units;
+
+	public GameObject ShipConfirmPanel;
 	
 	// Use this for initialization
 	void Awake ()
 	{		
 		units  = new List<Unit>();
-		transform.SetParent(GameObject.FindGameObjectWithTag("TurnManager").transform);
         PlayerName = gameObject.name;
 		Color = Random.ColorHSV();
+		ShipConfirmPanel.SetActive(false);
 	}
 
-	public void Start()
+	void Start()
 	{
-		label.text = PlayerName;
+		transform.SetParent(TurnManager.transform);
 	}
 
 	public void Update()
@@ -42,7 +44,7 @@ public class Player : MonoBehaviour {
 			if (unit != null)
 			{
 				SelectUnit(unit);
-			}
+			}			
 		}
 	}
 
@@ -58,5 +60,11 @@ public class Player : MonoBehaviour {
 		unit.Select();
 
 		_selectedUnit = unit;
+		ShipUI.SetUnitDetails(unit);
+		ShipUI.Show(true);
+
+		if (TurnManager._turnCount == 1 || TurnManager._turnCount == 2) return;
+		
+		ShipConfirmPanel.SetActive(true);			
 	}
 }

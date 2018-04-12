@@ -107,6 +107,12 @@
           <e p="ShipUI.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
         </e>
+        <e p="TSF" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="TSF.shader" t="Include" />
+            <e p="TSFOutline.shader" t="Include" />
+          </e>
+        </e>
         <e p="Units" t="Include">
           <e p="Ownable.cs" t="Include" />
           <e p="Unit.cs" t="Include" />
