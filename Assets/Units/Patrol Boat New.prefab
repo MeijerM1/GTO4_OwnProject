@@ -73672,12 +73672,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  maxHitpoints: 2
-  currentHitpoints: 2
-  firepower: 1
-  remainingFirepower: 1
-  maxMovementRange: 1
-  remainingMovementRange: 1
-  length: 2
-  locations: []
-  orientation: 0
+  MaxHitpoints: 2
+  CurrentHitpoints: 2
+  Firepower: 1
+  RemainingFirepower: 1
+  MaxMovementRange: 1
+  RemainingMovementRange: 1
+  Length: 2
+  Locations: []
+  Orientation: 0

@@ -24,6 +24,8 @@ public class TurnManager : MonoBehaviour
 
     public int _turnCount = 1;
 
+    public AudioManager AudioManager;
+
     private void Start()
     {
         turnPanel.SetActive(false);
@@ -37,6 +39,8 @@ public class TurnManager : MonoBehaviour
             
             player.transform.SetParent(gameObject.transform);
             player.GetComponent<Player>().TurnManager = this;
+
+            player.GetComponent<Player>().AudioManager = AudioManager;
             
             players.Add(player.GetComponent<Player>());
         }
@@ -65,9 +69,14 @@ public class TurnManager : MonoBehaviour
         for (int i = 0; i < players.Count; i++)
         {
             if (i == activePlayer)
-            {
+            {                
                 players[i].gameObject.SetActive(true);
                 playerLabel.text = players[i].PlayerName;
+
+                if (_turnCount > 2)
+                {
+                    players[i].GetComponent<Player>().ShipBuyPanel.SetActive(false);
+                }
             }
             else
             {
@@ -77,6 +86,18 @@ public class TurnManager : MonoBehaviour
         
         ShowTurnMessage();
         SetIntructionText();
+    }
+
+    public Player GetOtherPlayer()
+    {
+        if (activePlayer == 0)
+        {
+            return players[1];
+        }
+        else
+        {
+            return players[0];
+        }        
     }
 
     private void SetIntructionText()

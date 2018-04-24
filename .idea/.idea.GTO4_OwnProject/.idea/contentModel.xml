@@ -1,123 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\max1_\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_GTO4_OwnProject.-874018520.00" t="ExcludeRecursive" />
+    <e p="C:\Users\max1_\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_GTO4_OwnProject.-874018520.00" t="ExcludeRecursive" />
     <e p="E:\Unity projects\GTO4_OwnProject" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="DualCorStudios" t="Include">
-          <e p="BasicUI Metal" t="Include">
-            <e p="Standard Assets" t="Include">
-              <e p="CrossPlatformInput" t="Include">
-                <e p="CrossPlatformInputGuidelines.txt" t="Include" />
-                <e p="Scripts" t="Include">
-                  <e p="AxisTouchButton.cs" t="Include" />
-                  <e p="ButtonHandler.cs" t="Include" />
-                  <e p="CrossPlatformInputManager.cs" t="Include" />
-                  <e p="InputAxisScrollbar.cs" t="Include" />
-                  <e p="Joystick.cs" t="Include" />
-                  <e p="MobileControlRig.cs" t="Include" />
-                  <e p="PlatformSpecific" t="Include">
-                    <e p="MobileInput.cs" t="Include" />
-                    <e p="StandaloneInput.cs" t="Include" />
-                  </e>
-                  <e p="TiltInput.cs" t="Include" />
-                  <e p="TouchPad.cs" t="Include" />
-                  <e p="VirtualInput.cs" t="Include" />
+      <e p="Assets\DualCorStudios" t="Include">
+        <e p="BasicUI Metal" t="Include">
+          <e p="Standard Assets" t="Include">
+            <e p="CrossPlatformInput" t="Include">
+              <e p="CrossPlatformInputGuidelines.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="AxisTouchButton.cs" t="Include" />
+                <e p="ButtonHandler.cs" t="Include" />
+                <e p="CrossPlatformInputManager.cs" t="Include" />
+                <e p="InputAxisScrollbar.cs" t="Include" />
+                <e p="Joystick.cs" t="Include" />
+                <e p="MobileControlRig.cs" t="Include" />
+                <e p="PlatformSpecific" t="Include">
+                  <e p="MobileInput.cs" t="Include" />
+                  <e p="StandaloneInput.cs" t="Include" />
                 </e>
+                <e p="TiltInput.cs" t="Include" />
+                <e p="TouchPad.cs" t="Include" />
+                <e p="VirtualInput.cs" t="Include" />
               </e>
             </e>
           </e>
-          <e p="ReadMe.txt" t="Include" />
         </e>
-        <e p="External" t="Include">
-          <e p="Standard Assets" t="Include">
-            <e p="Editor" t="Include">
-              <e p="CrossPlatformInput" t="Include">
-                <e p="CrossPlatformInputInitialize.cs" t="Include" />
-              </e>
+        <e p="ReadMe.txt" t="Include" />
+      </e>
+      <e p="Assets\External" t="Include">
+        <e p="Standard Assets" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CrossPlatformInput" t="Include">
+              <e p="CrossPlatformInputInitialize.cs" t="Include" />
             </e>
-            <e p="Environment" t="Include">
+          </e>
+          <e p="Environment" t="Include">
+            <e p="Water" t="Include">
               <e p="Water" t="Include">
-                <e p="Water" t="Include">
-                  <e p="Scripts" t="Include">
-                    <e p="Displace.cs" t="Include" />
-                    <e p="GerstnerDisplace.cs" t="Include" />
-                    <e p="MeshContainer.cs" t="Include" />
-                    <e p="PlanarReflection.cs" t="Include" />
-                    <e p="SpecularLighting.cs" t="Include" />
-                    <e p="Water.cs" t="Include" />
-                    <e p="WaterBase.cs" t="Include" />
-                    <e p="WaterTile.cs" t="Include" />
-                  </e>
-                  <e p="Shaders" t="Include">
-                    <e p="FXWaterPro.shader" t="Include" />
-                  </e>
-                </e>
-                <e p="Water4" t="Include">
-                  <e p="Shaders" t="Include">
-                    <e p="FXWater4Advanced.shader" t="Include" />
-                    <e p="FXWater4Simple.shader" t="Include" />
-                    <e p="WaterInclude.cginc" t="Include" />
-                  </e>
-                </e>
-              </e>
-              <e p="Water (Basic)" t="Include">
                 <e p="Scripts" t="Include">
-                  <e p="WaterBasic.cs" t="Include" />
+                  <e p="Displace.cs" t="Include" />
+                  <e p="GerstnerDisplace.cs" t="Include" />
+                  <e p="MeshContainer.cs" t="Include" />
+                  <e p="PlanarReflection.cs" t="Include" />
+                  <e p="SpecularLighting.cs" t="Include" />
+                  <e p="Water.cs" t="Include" />
+                  <e p="WaterBase.cs" t="Include" />
+                  <e p="WaterTile.cs" t="Include" />
                 </e>
                 <e p="Shaders" t="Include">
-                  <e p="FXWaterBasic.shader" t="Include" />
+                  <e p="FXWaterPro.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Water4" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="FXWater4Advanced.shader" t="Include" />
+                  <e p="FXWater4Simple.shader" t="Include" />
+                  <e p="WaterInclude.cginc" t="Include" />
                 </e>
               </e>
             </e>
-          </e>
-          <e p="Wispy Sky" t="Include">
-            <e p="ReadMe.txt" t="Include" />
-          </e>
-        </e>
-        <e p="Grid" t="Include">
-          <e p="Cell.cs" t="Include" />
-          <e p="Map.cs" t="Include" />
-        </e>
-        <e p="MainMenuBoatRoll.cs" t="Include" />
-        <e p="Player" t="Include">
-          <e p="Player.cs" t="Include" />
-          <e p="TurnManager.cs" t="Include" />
-        </e>
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
+            <e p="Water (Basic)" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="WaterBasic.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="FXWaterBasic.shader" t="Include" />
+              </e>
             </e>
           </e>
         </e>
-        <e p="Resources" t="Include">
-          <e p="Resource.cs" t="Include" />
-          <e p="ResourceUI.cs" t="Include" />
+        <e p="Wispy Sky" t="Include">
+          <e p="ReadMe.txt" t="Include" />
         </e>
-        <e p="Scripts" t="Include">
-          <e p="AudioManager.cs" t="Include" />
-          <e p="CameraController.cs" t="Include" />
-          <e p="EventManager.cs" t="Include" />
-          <e p="MainMenu.cs" t="Include" />
-          <e p="PlaceManager.cs" t="Include" />
-          <e p="ShipUI.cs" t="Include" />
-          <e p="Sound.cs" t="Include" />
+      </e>
+      <e p="Assets\Grid" t="Include">
+        <e p="Cell.cs" t="Include" />
+        <e p="Map.cs" t="Include" />
+      </e>
+      <e p="Assets\MainMenuBoatRoll.cs" t="Include" />
+      <e p="Assets\Player" t="Include">
+        <e p="Player.cs" t="Include" />
+        <e p="TurnManager.cs" t="Include" />
+      </e>
+      <e p="Assets\Resources" t="Include">
+        <e p="Resource.cs" t="Include" />
+        <e p="ResourceUI.cs" t="Include" />
+      </e>
+      <e p="Assets\Scripts" t="Include">
+        <e p="AudioManager.cs" t="Include" />
+        <e p="CameraController.cs" t="Include" />
+        <e p="EventManager.cs" t="Include" />
+        <e p="MainMenu.cs" t="Include" />
+        <e p="PlaceManager.cs" t="Include" />
+        <e p="ShipUI.cs" t="Include" />
+        <e p="Sound.cs" t="Include" />
+      </e>
+      <e p="Assets\TSF" t="Include">
+        <e p="Shaders" t="Include">
+          <e p="TSF.shader" t="Include" />
+          <e p="TSFOutline.shader" t="Include" />
         </e>
-        <e p="TSF" t="Include">
-          <e p="Shaders" t="Include">
-            <e p="TSF.shader" t="Include" />
-            <e p="TSFOutline.shader" t="Include" />
-          </e>
-        </e>
-        <e p="Units" t="Include">
-          <e p="Ownable.cs" t="Include" />
-          <e p="Unit.cs" t="Include" />
-          <e p="UnitFactory.cs" t="Include" />
-        </e>
+      </e>
+      <e p="Assets\Units" t="Include">
+        <e p="Ownable.cs" t="Include" />
+        <e p="Unit.cs" t="Include" />
+        <e p="UnitFactory.cs" t="Include" />
       </e>
       <e p="GTO4_OwnProject.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

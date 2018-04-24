@@ -38,8 +38,8 @@ public class Map : MonoBehaviour {
 
                 newCell.name = "Cell: " + i + "," + j;
 
-                newCell.xPos = i;
-                newCell.yPos = j;
+                newCell.XPos = i;
+                newCell.YPos = j;
 
                 newCell.Map = this;
                 newCell.PlaceManager = PlaceManager;
@@ -69,7 +69,7 @@ public class Map : MonoBehaviour {
         }
     }
 
-    public List<Cell> GetCellsInRow(Cell startCell, int length, int orientation)
+    public List<Cell> GetCellsInInvertedRow(Cell startCell, int length, int orientation)
     {
         List<Cell> result = new List<Cell>();
         
@@ -81,7 +81,7 @@ public class Map : MonoBehaviour {
             {
                 case 0:
                 {
-                    Cell cell = GetCell(startCell.xPos, startCell.yPos - i);
+                    Cell cell = GetCell(startCell.XPos, startCell.YPos + i);
 
                     if (cell != null)
                     {
@@ -92,7 +92,7 @@ public class Map : MonoBehaviour {
                 }
                 case 1:
                 {
-                    Cell cell = GetCell(startCell.xPos + i, startCell.yPos);    
+                    Cell cell = GetCell(startCell.XPos - i, startCell.YPos);    
                 
                     if (cell != null)
                     {
@@ -107,6 +107,52 @@ public class Map : MonoBehaviour {
         return result;
     }
 
+    public List<Cell> GetCellsInRow(Cell startCell, int length, int orientation)
+    {
+        List<Cell> result = new List<Cell>();
+        
+        result.Add(startCell);
+
+        for (int i = 1; i < length; i++)
+        {
+            switch (orientation)
+            {
+                case 0:
+                {
+                    Cell cell = GetCell(startCell.XPos, startCell.YPos - i);
+
+                    if (cell != null)
+                    {
+                        result.Add(cell);                                    
+                    }
+
+                    break;
+                }
+                case 1:
+                {
+                    Cell cell = GetCell(startCell.XPos + i, startCell.YPos);    
+                
+                    if (cell != null)
+                    {
+                        result.Add(cell);                                    
+                    }
+
+                    break;
+                }
+            }
+        }
+
+        return result;
+    }
+
+    public void HighlightRotationCells(List<Cell> cells)
+    {
+        foreach (var cell in cells)
+        {
+            cell.Highlight(Color.yellow);
+        }
+    }
+
     public void ResetHighlight()
     {
         foreach (var cell in highlightedCells)
@@ -115,17 +161,47 @@ public class Map : MonoBehaviour {
         }
     }
 
+    public void ResetMRotationHighlight()
+    {
+        foreach(var cell in transform.GetComponentsInChildren<Cell>())
+        {
+            cell.RemoveHighligh();
+            cell.IsRotateTarget = false;
+        }
+    }
+
+    public void ShowRotationOptions(List<Cell> cells, Unit unit)
+    {    
+        Color color = Color.green;
+
+        foreach (var cell in cells)
+        {
+            if (cell.Unit != null)
+            {
+                if (cell.Unit != unit)
+                {
+                    color = Color.red;                    
+                }
+            }
+        }
+
+        foreach (var cell in cells)
+        {
+            cell.Highlight(color);
+        }
+    }
+
     public void HighLightCells(Cell startCell, Unit unit)
     {
         ResetHighlight();
         
-        var cells = GetCellsInRow(startCell, unit.length, unit.orientation);
+        var cells = GetCellsInRow(startCell, unit.Length, unit.Orientation);
 
         highlightedCells = cells;
         
         Color color;
 
-        if (cells.Count < unit.length)
+        if (cells.Count < unit.Length)
         {
             color = Color.red;
         }
@@ -136,7 +212,7 @@ public class Map : MonoBehaviour {
 
         foreach (var cell in cells)
         {
-            if (cell.unit != null)
+            if (cell.Unit != null)
             {
                 color = Color.red;
             }

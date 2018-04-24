@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Cell : MonoBehaviour {
 
-	public int xPos;
-    public int yPos;
+	public int XPos;
+    public int YPos;
 
-    public Unit unit;
+    public Unit Unit;
 
     private Color _startcolor;
+
+    public bool IsRotateTarget = false;
 
     public PlaceManager PlaceManager;
     public Map Map;

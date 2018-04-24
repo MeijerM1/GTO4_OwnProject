@@ -19,12 +19,10 @@ public class ShipUI : MonoBehaviour
 	
 	public void SetUnitDetails(Unit unit)
 	{
-		Debug.Log("Setting ship UI");
-		
 		Type.text = unit.name.Substring(0, unit.name.IndexOf("(")) ;
-		Hp.text = unit.currentHitpoints + "/" + unit.maxHitpoints;
-		Firepower.text = unit.firepower.ToString();
-		Movement.text = unit.remainingMovementRange + "/" + unit.maxMovementRange;
+		Hp.text = unit.CurrentHitpoints + "/" + unit.MaxHitpoints;
+		Firepower.text = unit.RemainingFirepower.ToString() +"/" + unit.Firepower.ToString();
+		Movement.text = unit.RemainingMovementRange + "/" + unit.MaxMovementRange;
 
 		gameObject.SetActive(true);
 	}

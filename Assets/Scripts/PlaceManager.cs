@@ -9,8 +9,8 @@ public class PlaceManager : MonoBehaviour
 {
 
     public Unit ObjectToPlace;
-    public Player player;
-    public Map map;
+    public Player Player;
+    public Map Map;
 
     public void Update()
     {
@@ -39,11 +39,10 @@ public class PlaceManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             Cell cell = hit.transform.GetComponent<Cell>();
-
-            if (cell.Map != map) return;
             
-            if(cell != null && cell.unit == null)
-            {
+            if(cell != null && cell.Unit == null)
+            {                
+                if (cell.Map != Map) return;
 
                 if (!CheckSpace(cell))
                 {
@@ -51,22 +50,28 @@ public class PlaceManager : MonoBehaviour
                 }
 
                 Unit newUnit = Instantiate(ObjectToPlace);
+                
+                Player.AudioManager.PlaySound("IntoPosition");
                                    
                 newUnit.transform.SetParent(hit.transform.gameObject.transform, false);
 
-                // FIXME better rotation solution.
-                if (newUnit.orientation == 1)
+                if (newUnit.Orientation == 0)
                 {
-                    hit.transform.Rotate(0, -90, 0);
+                    hit.transform.localEulerAngles = new Vector3(0,0,0);
+                }
+                else
+                {
+                    hit.transform.localEulerAngles = new Vector3(0,-90,0);
                 }
 
-                newUnit.player = player;
+                newUnit.player = Player;
+                newUnit.Map = Map;
                 
                 OccupyCells(cell , newUnit);
                                 
-                player.units.Add(newUnit);
+                Player.Units.Add(newUnit);
 
-                map.ResetHighlight();
+                Map.ResetHighlight();
                 
                 ObjectToPlace = null;                
             }
@@ -80,16 +85,16 @@ public class PlaceManager : MonoBehaviour
 
     private bool CheckSpace(Cell cell)
     {
-        var cells = map.GetCellsInRow(cell, ObjectToPlace.length, ObjectToPlace.orientation);
+        var cells = Map.GetCellsInRow(cell, ObjectToPlace.Length, ObjectToPlace.Orientation);
         
-        if (cells.Count < ObjectToPlace.length)
+        if (cells.Count < ObjectToPlace.Length)
         {
             return false;
         }
         
         foreach (var c in cells)
         {
-            if (c.unit != null)
+            if (c.Unit != null)
             {
                 Debug.LogWarning("Cell already occupied");
                 return false;
@@ -101,13 +106,13 @@ public class PlaceManager : MonoBehaviour
 
     private void OccupyCells(Cell cell, Unit unit)
     {        
-        var cells = map.GetCellsInRow(cell, ObjectToPlace.length, ObjectToPlace.orientation);
+        var cells = Map.GetCellsInRow(cell, ObjectToPlace.Length, ObjectToPlace.Orientation);
 
-        unit.locations = cells;
+        unit.Locations = cells;
         
         foreach (var c in cells)
         {
-            c.unit = unit;
+            c.Unit = unit;
         }
 
     }
